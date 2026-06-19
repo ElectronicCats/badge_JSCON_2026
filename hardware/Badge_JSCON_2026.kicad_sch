@@ -4200,6 +4200,12 @@
 		(uuid "2bd9dd71-b3eb-4358-9ac3-34f116e05378")
 	)
 	(junction
+		(at 92.71 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33c164b9-ec6a-47bc-b310-33673429a45b")
+	)
+	(junction
 		(at 151.257 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4222,12 +4228,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52e006cd-63d5-4401-bcb8-f359d9060705")
-	)
-	(junction
-		(at 93.98 251.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ae17ba0-3773-49e3-afe2-06f166271fea")
 	)
 	(junction
 		(at 152.019 54.61)
@@ -4571,16 +4571,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 243.84) (xy 35.56 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "122a9df0-b020-4344-8842-3297e3ac1892")
-	)
-	(wire
-		(pts
 			(xy 165.1 54.61) (xy 165.1 57.15)
 		)
 		(stroke
@@ -4771,16 +4761,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 243.84) (xy 46.99 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ac2dcd5-63af-4750-b467-9ec335daf0b2")
-	)
-	(wire
-		(pts
 			(xy 308.61 68.58) (xy 306.07 68.58)
 		)
 		(stroke
@@ -4901,7 +4881,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 241.3) (xy 93.98 243.84)
+			(xy 92.71 241.3) (xy 92.71 243.84)
 		)
 		(stroke
 			(width 0)
@@ -5681,16 +5661,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 251.46) (xy 106.68 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa7b0b88-4456-4719-a3a8-7338755ae2f5")
-	)
-	(wire
-		(pts
 			(xy 215.9 49.53) (xy 217.17 49.53)
 		)
 		(stroke
@@ -5711,7 +5681,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 251.46) (xy 93.98 251.46)
+			(xy 86.36 251.46) (xy 92.71 251.46)
 		)
 		(stroke
 			(width 0)
@@ -5778,6 +5748,16 @@
 			(type default)
 		)
 		(uuid "afe35a4f-0785-45de-953e-31487ce56009")
+	)
+	(wire
+		(pts
+			(xy 92.71 251.46) (xy 106.68 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e93d5c-f646-4d77-96ff-dff06b49eedc")
 	)
 	(wire
 		(pts
@@ -6211,7 +6191,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 251.46) (xy 93.98 248.92)
+			(xy 92.71 251.46) (xy 92.71 248.92)
 		)
 		(stroke
 			(width 0)
@@ -6278,16 +6258,6 @@
 			(type default)
 		)
 		(uuid "ea3dbd1d-86dc-44ff-b337-c6ddbde6fd0b")
-	)
-	(wire
-		(pts
-			(xy 35.56 232.41) (xy 35.56 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaf4e9dc-b069-4055-a0c9-457a1ba4d114")
 	)
 	(wire
 		(pts
@@ -6399,16 +6369,6 @@
 		)
 		(uuid "fe08c3a8-cbdb-4fd0-8b12-c04a69a35da6")
 	)
-	(wire
-		(pts
-			(xy 46.99 232.41) (xy 46.99 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "febcf8be-96c1-4b85-b108-7764d20f3a38")
-	)
 	(label "RSTB"
 		(at 33.02 88.9 180)
 		(effects
@@ -6459,7 +6419,7 @@
 		)
 		(uuid "2a4e1927-3b59-4271-a4e5-f04e3bd1b8e2")
 	)
-	(label "SDA"
+	(label "SPI_MOSI"
 		(at 104.14 243.84 180)
 		(effects
 			(font
@@ -6539,7 +6499,7 @@
 		)
 		(uuid "4ae42995-f3b4-478c-8921-e3689841351b")
 	)
-	(label "SCL"
+	(label "SPI_SCLK"
 		(at 33.02 81.28 180)
 		(effects
 			(font
@@ -6599,7 +6559,7 @@
 		)
 		(uuid "766aec2a-eef2-401f-b2a0-f1b694119ef0")
 	)
-	(label "SCL"
+	(label "SPI_SCLK"
 		(at 104.14 246.38 180)
 		(effects
 			(font
@@ -6659,7 +6619,7 @@
 		)
 		(uuid "96339891-ce86-41e3-91bc-2bfec14b7b61")
 	)
-	(label "SDA"
+	(label "SPI_MOSI"
 		(at 33.02 78.74 180)
 		(effects
 			(font
@@ -6708,16 +6668,6 @@
 			(justify right bottom)
 		)
 		(uuid "a7101fe5-631e-4127-8ad1-67dbfc383c94")
-	)
-	(label "SDA"
-		(at 35.56 243.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ad23d1d9-2050-4b71-ae4c-f3d484f36f44")
 	)
 	(label "D-"
 		(at 63.246 149.86 0)
@@ -6838,16 +6788,6 @@
 			(justify right bottom)
 		)
 		(uuid "d2645da6-5471-402d-83ad-1d141d218fe0")
-	)
-	(label "SCL"
-		(at 46.99 243.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d4ce6ea7-b6e9-4ab6-9d9a-5a88d284aee9")
 	)
 	(label "CS1"
 		(at 86.36 251.46 180)
@@ -7739,7 +7679,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 93.98 246.38 0)
+		(at 92.71 246.38 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7748,7 +7688,7 @@
 		(dnp no)
 		(uuid "26e28ad6-9d2d-4f01-a699-29258356d94a")
 		(property "Reference" "R3"
-			(at 89.154 247.396 0)
+			(at 87.884 247.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7757,7 +7697,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 88.9 245.11 0)
+			(at 87.63 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7766,7 +7706,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 93.98 246.38 0)
+			(at 92.71 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7775,7 +7715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 246.38 0)
+			(at 92.71 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7784,7 +7724,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 246.38 0)
+			(at 92.71 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7793,7 +7733,7 @@
 			)
 		)
 		(property "manf#" ""
-			(at 93.98 246.38 0)
+			(at 92.71 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7802,7 +7742,7 @@
 			)
 		)
 		(property "LCSC#" "C2930027"
-			(at 93.98 246.38 0)
+			(at 92.71 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7811,7 +7751,7 @@
 			)
 		)
 		(property "provedor" "LCSC"
-			(at 93.98 246.38 0)
+			(at 92.71 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8157,85 +8097,6 @@
 			(project "Badge_JSCON_2026"
 				(path "/41b8b7f8-45a2-470a-990c-475d2533c7c3"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 35.56 237.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35680bc7-bebf-400d-9eed-2d87f4eaa6de")
-		(property "Reference" "R17"
-			(at 36.576 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7K"
-			(at 36.576 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 33.782 237.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 35.56 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C2907034"
-			(at 35.56 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d4d7361-31d6-4e9d-a5dc-39fb2416f3a2")
-		)
-		(pin "2"
-			(uuid "981b0ef0-0c8d-4423-83df-dc23bb92c2d0")
-		)
-		(instances
-			(project "Badge_JSCON_2026"
-				(path "/41b8b7f8-45a2-470a-990c-475d2533c7c3"
-					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -8658,85 +8519,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 46.99 237.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "438201c0-2bc3-49e5-a6c0-7feebd3bc86f")
-		(property "Reference" "R18"
-			(at 49.53 236.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7K"
-			(at 49.53 238.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 45.212 237.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 46.99 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C2907034"
-			(at 46.99 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc59f7fb-a770-41dd-93a8-c988ff8f94fd")
-		)
-		(pin "2"
-			(uuid "b89470ab-4143-4ba6-81ad-16fbca820431")
-		)
-		(instances
-			(project "Badge_JSCON_2026"
-				(path "/41b8b7f8-45a2-470a-990c-475d2533c7c3"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 49.53 257.81 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8875,138 +8657,6 @@
 			(project "Badge_JSCON_2026"
 				(path "/41b8b7f8-45a2-470a-990c-475d2533c7c3"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 35.56 232.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5103ccc0-4677-45b4-b87d-ecd8bf58ad00")
-		(property "Reference" "#PWR057"
-			(at 35.56 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 35.56 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 35.56 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c66d18da-37aa-46e3-bccb-6b35b451df7a")
-		)
-		(instances
-			(project "Badge_JSCON_2026"
-				(path "/41b8b7f8-45a2-470a-990c-475d2533c7c3"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 46.99 232.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52300d16-63c8-455c-a37f-834bc427a8d6")
-		(property "Reference" "#PWR058"
-			(at 46.99 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 46.99 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 46.99 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "503cc1b3-4b63-41bf-8ceb-7c895bc07296")
-		)
-		(instances
-			(project "Badge_JSCON_2026"
-				(path "/41b8b7f8-45a2-470a-990c-475d2533c7c3"
-					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -11782,7 +11432,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 93.98 241.3 0)
+		(at 92.71 241.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11791,7 +11441,7 @@
 		(fields_autoplaced yes)
 		(uuid "c90c1400-c3d3-41ef-8805-03e2deae1e57")
 		(property "Reference" "#PWR06"
-			(at 93.98 245.11 0)
+			(at 92.71 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11800,7 +11450,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 93.98 237.49 0)
+			(at 92.71 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11808,7 +11458,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 241.3 0)
+			(at 92.71 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11817,7 +11467,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 241.3 0)
+			(at 92.71 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11826,7 +11476,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 93.98 241.3 0)
+			(at 92.71 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
